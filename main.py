@@ -1,5 +1,7 @@
 # main.py
 
+from notes_manager import NotesManager
+
 def print_menu():
     print("-------------------------")
     print("1. Создать новую заметку")
@@ -11,3 +13,10 @@ def print_menu():
     print("7. Вывести все заметки")
     print("8. Выйти")
     print("-------------------------")
+
+def main():
+    notes_manager = NotesManager()
+
+
+if __name__ == "__main__":
+    main()
